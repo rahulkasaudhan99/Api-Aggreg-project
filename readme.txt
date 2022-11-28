@@ -1,27 +1,21 @@
 Requirements with links to download:
 1. Java 17 
-	- (Azul Zulu JDK) https://cdn.azul.com/zulu/bin/zulu17.38.21-ca-jdk17.0.5-win_x64.msi?_gl=1*m9tr7d*_ga*MTYxNTUwNDU0MC4xNjYxMzI1MTM3*_ga_42DEGWGYD5*MTY2OTM4MDQwMi4yLjEuMTY2OTM4MDQwNC41OC4wLjA
 3. Apache ActiveMq 5.17.2
 	- https://www.apache.org/dyn/closer.cgi?filename=/activemq/5.17.2/apache-activemq-5.17.2-bin.zip&action=download
 4. Docker Container/ Docker Desktop
-	- https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module
 5. Spring Tool Suite
 6. Postman
 
 Steps to run:
 
-1.Run ActiveMQ server
-  - Configure according to given configurations.
-  - Open extracted file go to bin folder and run cmd
-  - Run command: activemq start
-  - Check if it is running 
-
-2. Get following docker image running in docker container
+1. Get following docker image running in docker container
     https://hub.docker.com/r/xyzassessment/backend-services
+
+2. Run ActiveMQ 
 
 
 3. IDE setup 
-   - Clone project in STS fromgithub repository : ""
+   - Clone project in STS from Github repository : "https://github.com/rahulkasaudhan99/Api-Aggregator"
    - Import as Maven project in STS 
    - Ensure Maven update and build
   
@@ -50,8 +44,7 @@ Steps to run automated tests in "src/test/java":
 	
 	
 	
-	
-	
+<------------------------------------------------------------------------------------------------------------->
 	
 For Reference
 
