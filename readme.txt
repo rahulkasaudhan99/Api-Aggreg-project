@@ -26,7 +26,7 @@ Steps to run:
    - Ensure Maven update and build
   
 3. Update application.properties file which is located on path src/main/resources
-	a. Update properties for ActiveMq (Ensure enter tcp url see reference screenshot : https://github.com/rahulkasaudhan99/configurations/blob/main/Screenshot%201.png )
+	a. Update properties for ActiveMq (Ensure enter tcp url see ref ss: https://github.com/rahulkasaudhan99/configurations/blob/main/Screenshot%201.png )
   		spring.activemq.broker-url=<amq-brocker-url>
 		spring.activemq.user=<activemq-username>
 		spring.activemq.password=<activemq-password>
@@ -62,5 +62,5 @@ Active mq :
     - Extract zip file 
     - Copy Extracted file to location(eg : "C:\Program Files")
     - Goto location apache-activemq-5.17.2 -> webapps -> api -> WEB-INF -> web.xml 
-    - Update file location for "jolokia-access.xml" in web.xml file (see reference screeshot : https://github.com/rahulkasaudhan99/configurations/blob/main/File%20location%20change%20in%20web.xml.png ) 
+    - Update file location for "jolokia-access.xml" in web.xml file (see ref ss: 												https://github.com/rahulkasaudhan99/configurations/blob/main/File%20location%20change%20in%20web.xml.png
     - location for jolokia-access.xml : apache-activemq-5.17.2 -> conf
